@@ -1,0 +1,118 @@
+body{
+  background: #141E30;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30); 
+  background: linear-gradient(to right, #243B55, #141E30); 
+
+}
+
+.wrapper {
+  width: 45%;
+  height: auto;
+  margin: 10px auto;
+  border: 1px solid green;
+  background: white;
+  background: #141E30;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30); 
+  background: linear-gradient(to right, #243B55, #141E30); 
+
+
+}
+.comment_form {
+  width: 80%;
+  margin: 35px 42px 35px;
+  border: 4px solid lightgreen;
+  background: #fafcfc;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  font-family: cursive;
+  background: #141E30;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30); 
+  background: linear-gradient(to right, #243B55, #141E30); 
+
+  
+}
+.comment_form label {
+  display: block;
+  margin: 5px 0px 5px 0px;
+}
+.comment_form input, textarea {
+  padding: 5px;
+  color: white;
+  font-family: cursive;
+  width: 95%;
+  border: 4px solid lightgreen;
+  background: #141E30;  
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  
+  background: linear-gradient(to right, #243B55, #141E30);
+
+}
+input:hover, textarea:hover{
+  background: #fd746c;  
+  background: -webkit-linear-gradient(to right, #ff9068, #fd746c);  
+  background: linear-gradient(to right, #ff9068, #fd746c);
+
+}
+
+button{
+  border: 4px solid lightgreen;
+  padding: 10px;
+  background: transparent;
+  font-family: cursive;
+  color: white;
+}
+#update_button{
+  display: none;
+}
+#display_area {
+  width: 90%;
+  margin: 10px 35px 35px;
+  color: white;
+}
+.comment_box {
+  cursor: default;
+  margin: 5px;
+  border: 4px solid lightgreen;
+  padding: 5px 10px;
+  position: relative;
+  font-family: cursive;
+  border-radius: 15px;
+}
+.delete {
+  position: absolute;
+  top: 0px;
+  right: 3px;
+  text-decoration: none;
+  padding: 4px 7px;
+  color: white;
+  border-radius: 3px;
+  background: #DB4437;
+  display: none;
+  cursor: pointer;
+}
+.edit {
+  position: absolute;
+  top: 0px;
+  right: 70px;
+  text-decoration: none;
+  padding: 4px 10px;
+  background: #0F9D58;
+  color: white;
+  border-radius: 3px;
+  display: none;
+  cursor: pointer;
+}
+.comment_box:hover .edit, .comment_box:hover .delete {
+  display: block;
+}
+.comment_text {
+  text-align: justify;
+  margin-top: 20px;
+}
+.display_name {
+  padding: 0px;
+  margin: 0px 0px 5px 0px;
+}
+span{
+  margin-top: 7px;
+}
